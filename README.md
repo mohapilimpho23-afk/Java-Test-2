@@ -12,7 +12,7 @@
 
 ## README
 
-### Question 1 — Fix the encapsulation errors in `Person.java` [10 Points]
+### Question 1 — Fix the encapsulation errors in `Person.java` 
 
 This class must:
 
@@ -36,7 +36,7 @@ public class Person {
 
 ---
 
-### Question 2 — Fix the inheritance errors in `Student.java` [10 Points]
+### Question 2 — Fix the inheritance errors in `Student.java` 
 
 This class must:
 
@@ -63,7 +63,7 @@ public class Student extends Person {
 
 ---
 
-### Question 3 — `getDetails()` in `Person.java` [10 Points]
+### Question 3 — `getDetails()` in `Person.java` 
 
 Complete the method body so that it returns a single `String` in this exact format:
 
@@ -79,7 +79,7 @@ public String getDetails() {}
 
 ---
 
-### Question 4 — `isHonourStudent()` in `Student.java` [10 Points]
+### Question 4 — `isHonourStudent()` in `Student.java` 
 
 Complete the method body so that it:
 
