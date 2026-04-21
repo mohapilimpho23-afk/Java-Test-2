@@ -1,0 +1,124 @@
+Comprehension Answers
+
+
+INSTRUCTIONS
+  - Write your answers in the spaces provided below each question.
+  - Do NOT remove the question text, dividers, or [START] / [END] markers.
+  - Do NOT change the format of this file. (Easier to mark)
+
+================================================================================
+
+
+COMPREHENSION QUESTION 1 — Encapsulation                              [5 Points]
+
+SCENARIO:
+A teammate on your project has written a BankAccount class where the balance
+field is public. You notice that other parts of the program are changing the
+balance directly — sometimes setting it to a negative number — and it is
+causing bugs everywhere.
+
+Your tech lead asks you to explain to your teammate why this is a problem and
+how encapsulation fixes it.
+
+Write that explanation. Cover what encapsulation is, why fields should be
+private, and how getters and setters give controlled access — including the
+ability to add validation.
+
+[START]
+
+
+
+
+[END]
+
+
+
+COMPREHENSION QUESTION 2 — Inheritance                                [5 Points]
+
+SCENARIO:
+Your team is building a school system. A classmate has written a Teacher class
+and a Student class, and you notice they have copied the same name, age,
+getName(), and getAge() code into both classes word for word.
+
+Explain to your classmate how inheritance would solve this. Cover what
+inheritance is and what extends means, what a subclass gets from its parent,
+and why avoiding this kind of code duplication matters.
+
+[START]
+
+
+
+
+[END]
+
+
+
+COMPREHENSION QUESTION 3 — Access Modifiers                          [10 Points]
+
+SCENARIO:
+You are reviewing code for a new team member who has used public on every
+field and method in every class. Your tech lead asks you to write a short
+internal guide for the team on access modifiers — specifically for the context
+of writing well-designed Java classes.
+
+Write that guide. It should cover what access modifiers are and why they
+matter, the difference between public and private, what protected does and
+when it is appropriate (especially in a parent-child class relationship), and
+a practical rule of thumb the team can follow when deciding which to use.
+
+[START]
+
+
+
+
+[END]
+
+
+
+COMPREHENSION QUESTION 4 — Method Overriding                          [5 Points]
+
+SCENARIO:
+A classmate has a Person class with a getDetails() method. They wrote a
+Student subclass and added a getDetails() method to it as well — but they are
+confused about why their version is being called instead of the parent's, and
+whether this is intentional.
+
+Explain method overriding to your classmate. Cover what overriding means and
+when it happens, what the @Override annotation does and why it is good
+practice to include it, and how super.getDetails() can be used to extend the
+parent's behaviour rather than completely replace it.
+
+[START]
+
+
+
+
+[END]
+
+
+
+COMPREHENSION QUESTION 5 — OOP Design                                [10 Points]
+
+SCENARIO:
+Your team is building a system for a veterinary clinic. A teammate has
+suggested using a separate array for each animal attribute — one for names,
+one for species, one for ages, one for whether the animal has been vaccinated
+— and just using the index to link them together.
+
+Using the veterinary clinic as your example throughout, argue for an OOP
+approach instead. Your answer should cover what a class is and how it acts as
+a blueprint (use an Animal class as your example), what an object and an
+instance are with a concrete example, and how inheritance could be used if the
+clinic needed to distinguish between different types of animals (such as Dog
+and Cat) that share common attributes but also have their own.
+
+[START]
+
+
+
+
+[END]
+
+
+  END OF FILE
+================================================================================
