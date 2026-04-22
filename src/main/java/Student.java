@@ -15,7 +15,7 @@ public class Student extends Person {
     private int grade;
 
     public Student(String name, int age, int grade) {
-        // fix: parent constructor is never called
+        super(name , age);
         this.grade = grade;
     }
 
@@ -25,7 +25,7 @@ public class Student extends Person {
 
     @Override
     public String getDetails() {
-        return "Student";   // fix: should build on Person's getDetails()
+        return super.getDetails() + ", Grade ;" + grade ;   // fix: should build on Person's getDetails()
         // expected format: "Name: Alice, Age: 20, Grade: 88"
     }
 
@@ -37,7 +37,8 @@ public class Student extends Person {
     // No starter logic is provided — write the full method body.
 
     public boolean isHonourStudent() {
-        return      ;
+        if ( grade >= 75 ) return true ;
+        return false     ;
     }
 
 }

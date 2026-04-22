@@ -15,21 +15,18 @@ public class Person {
     //   - One wrong return value in a getter
     // Fix all three errors.
 
-    public String name;     // fix: wrong access modifier
+    private String name;     // fix: wrong access modifier
     private int age;
 
     public Person(String name, int age) {
-        name = name;        // fix: field is never actually set
+        this.name = name;        // fix: field is never actually set
         this.age = age;
     }
 
     public String getName() {
-        return "";          // fix: wrong return value
+        return this.name;          // fix: wrong return value
     }
-
-    public int getAge() {
-        return this.age;
-    }
+    
 
     // Question 3 — Complete getDetails()
 
@@ -38,7 +35,7 @@ public class Person {
     // Fill in the return statement. Use the existing getters.
 
     public String getDetails() {
-        return          ;   // fill: build and return the formatted string
+        return  "Name:" + name  + ", Age:" + age      ;   // fill: build and return the formatted string
     }
 
 }
