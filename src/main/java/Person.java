@@ -24,7 +24,11 @@ public class Person {
     }
 
     public String getName() {
-        return this.name;          // fix: wrong return value
+        return this.name;// fix: wrong return value
+    }
+
+    public int getAge() {
+        return  this.age;
     }
     
 
@@ -35,7 +39,7 @@ public class Person {
     // Fill in the return statement. Use the existing getters.
 
     public String getDetails() {
-        return  "Name:" + name  + ", Age:" + age      ;   // fill: build and return the formatted string
+        return  "Name: " +  name  + ", Age: " + age      ;   // fill: build and return the formatted string
     }
 
 }

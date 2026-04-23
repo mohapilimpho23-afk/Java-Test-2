@@ -23,9 +23,11 @@ public class Student extends Person {
         return this.grade;
     }
 
+
+
     @Override
     public String getDetails() {
-        return super.getDetails() + ", Grade ;" + grade ;   // fix: should build on Person's getDetails()
+        return super.getDetails() + ", Grade: " + grade ;   // fix: should build on Person's getDetails()
         // expected format: "Name: Alice, Age: 20, Grade: 88"
     }
 
